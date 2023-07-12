@@ -8,12 +8,15 @@ fun main() {
 
     val fahrenheit = ((9.0 / 5.0) * input) + 32
 
-    println(fahrenheit)
+    println("Fahrenheint: $fahrenheit")
 
     val kelvin = input +273.15
 
-    println(kelvin)
-    
+    println("Kelvin: $kelvin")
+
+    val fahrenheitToKelvin = 5.0/9.0 * (fahrenheit - 32) + 273.15
+
+    println("Farenheit a Kelvin $fahrenheit")
 
 
 
